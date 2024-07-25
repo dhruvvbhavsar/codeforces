@@ -1,0 +1,15 @@
+# Ignore all files without extension
+*
+!*.*
+!*/
+
+# But don't ignore .gitignore
+!.gitignore
+
+# Ignore specific file types even if they have an extension
+*.out
+*.o
+*.exe
+
+# Ignore files with execute permission
+*[[:executable:]]
